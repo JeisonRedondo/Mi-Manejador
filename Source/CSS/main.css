@@ -1,0 +1,60 @@
+¨*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+ul {
+        list-style: none;
+    }
+a {
+        text-decoration: none;
+    }
+
+main .main--result {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid #333; */
+    border-radius: 10px;
+    background-color: rgb(110, 122, 96);
+}
+
+.main--result .main--text {
+    text-align: center;
+    background-color: rgb(92, 9, 93);
+    /* border: 1px solid rgb(200, 40, 150); */
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px rgb(9, 7, 7);
+}
+
+.main--result .main--text p {
+    margin: 5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(40, 121, 192);
+}
+
+
+
+.main--pages .main--pages_list {
+    display: flex;
+}
+
+.main--pages .main--pages_list li {
+    margin: 0px 10px;
+}
+
+.main--pages .main--pages_list .list--pages::hover {
+    cursor: pointer;
+}
